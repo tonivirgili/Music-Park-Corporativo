@@ -1,0 +1,74 @@
+.main{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*----------------
+HEADER
+-----------------*/
+.cabecalho{
+	width: 100%;
+	height: 120px;
+}
+
+.logo-music-park{
+	width: 132px;
+	height: 94px;
+	margin-top: 20px;
+	background-image: url("../img/logo_music_park_132x94.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.botao-inicio{
+	width: 80px;
+	height: 35px;
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
+}
+
+h3 {
+	font-size: 22px;
+	color: #e7af19;
+}
+
+.jumbotron{
+	height: 80px;
+	margin-top: 20px;
+	padding-left: 5px; 
+	padding-top: 8px;
+	background-color: #41397b;
+}
+
+#tabela{
+ 	white-space: nowrap;
+    overflow: hidden;
+   	text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+ 	-ms-text-overflow: ellipsis;
+}
+
+#tabela a{
+	cursor: pointer;
+}
+
+#tabela_paginada{
+	font-size: 13px;
+ 	white-space: nowrap;
+    overflow: hidden;
+   	text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+ 	-ms-text-overflow: ellipsis;
+}
+
+div.pagination {text-align:center;margin:3px;padding:3px;}
+div.pagination a {margin-right:2px;border:1px solid #41397b;text-decoration:none;color:#fff;background:#41397b;padding:2px 5px;}
+div.pagination a:hover,div.pagination a:active {border:1px solid #e7af19;color:#FFF;background:#e7af19;}
+div.pagination span.current {margin-right:2px;border:1px solid #e7af19;background:#e7af19;color:#FFF;padding:2px 5px;}
+div.pagination span.disabled {margin-right:2px;border:1px solid #f3f3f3;color:#ccc;padding:2px 5px;}
+
+.e2e{
+	display: none;
+}

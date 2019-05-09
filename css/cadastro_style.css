@@ -1,0 +1,385 @@
+*{
+	margin: 0;
+}
+
+html{
+	font-family: 'OpenSansRegular';
+}
+
+body{
+	background-image: url("../img/bg_all_corporativo_3000x2000.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: 1d1a2b;
+}
+
+/*----------------
+HEADER
+-----------------*/
+.cabecalho{
+	width: 100%;
+	height: 120px;
+}
+
+.logo-music-park{
+	width: 132px;
+	height: 94px;
+	margin-top: 20px;
+	margin-left: 160px;
+	background-image: url("../img/logo_music_park_132x94.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.botao-inicio{
+	width: 80px;
+	height: 35px;
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
+}
+
+/*----------------
+FORM
+-----------------*/
+.formulario{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulario-central{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.formulario h1{
+	font-size: 72px;
+	color: #e7af19;
+}
+form{
+	position: relative;
+	z-index: 2;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+/*----------------
+EVENTOS ASIDE
+-----------------*/
+.eventos{
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	top: 155px;
+	left: -235px;
+	z-index: 1;
+}
+
+.linha-eventos{
+	width: 100%;
+	height: 1px;
+	background-color: #fbae17;
+}
+
+.seta-lista-eventos{
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/triangulo_lista_eventos.png");
+	background-repeat: no-repeat;
+}
+
+.eventos-lista{
+	list-style-type: none;
+	color: #fbae17;
+	padding: 10px 0 10px 0;
+}
+
+.eventos-icones{
+	padding-top: 20px;
+}
+
+/*----------------
+VIDEOS ASIDE
+-----------------*/
+
+.videos{
+	width: 400px;
+	height: 635px;
+	position: absolute;
+	top: 160px;
+	left: 540px;
+	border-left: 1px solid #fbae17;
+}
+
+.video-jurere{
+	margin-top: 90px;
+}
+
+.video-bc{
+	margin-top: 90px;
+}
+
+
+/*----------------
+ENVIAR
+-----------------*/
+.btn-info-enviar {
+	width: 74px;
+	height: 74px;
+	color: #fff;
+	background-color: #fbae17;
+	border-color: #fbae17;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.btn-info-enviar:hover,
+.btn-info-enviar:focus,
+.btn-info-enviar.focus,
+.btn-info-enviar:active,
+.btn-info-enviar.active,
+.open > .dropdown-toggle.btn-info-enviar {
+  color: #fff;
+  background-color: #41397b;
+  border-color: #41397b;
+}
+.btn-info-enviar:active,
+.btn-info-enviar.active,
+.open > .dropdown-toggle.btn-info-enviar {
+  background-image: none;
+}
+.btn-info-enviar.disabled,
+.btn-info-enviar[disabled],
+fieldset[disabled] .btn-info-enviar,
+.btn-info-enviar.disabled:hover,
+.btn-info-enviar[disabled]:hover,
+fieldset[disabled] .btn-info-enviar:hover,
+.btn-info-enviar.disabled:focus,
+.btn-info-enviar[disabled]:focus,
+fieldset[disabled] .btn-info-enviar:focus,
+.btn-info-enviar.disabled.focus,
+.btn-info-enviar[disabled].focus,
+fieldset[disabled] .btn-info-enviar.focus,
+.btn-info-enviar.disabled:active,
+.btn-info-enviar[disabled]:active,
+fieldset[disabled] .btn-info-enviar:active,
+.btn-info-enviar.disabled.active,
+.btn-info-enviar[disabled].active,
+fieldset[disabled] .btn-info-enviar.active {
+  background-color: #41397b;
+  border-color: #41397b;
+}
+.btn-info-enviar .badge {
+  color: #41397b;
+  background-color: #fff;
+}
+
+/*----------------
+DOWNLOAD
+-----------------*/
+.download-icone{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	cursor: pointer;
+	text-align: right;
+	float: right;
+}
+
+.texto-download{
+	color: white;
+}
+
+.fa-cloud-download{
+	color: white;
+	font-size: 36px;
+}
+
+/*----------------
+FOOTER
+-----------------*/
+.rodape{
+	width: 500px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.linha{
+	width: 500px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.texto-rodape{
+	width: 500px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.cidade-class{
+	float: left;
+}
+
+.telefone-class{
+	color: white;
+	cursor: pointer;
+	margin-top: 55px;
+}
+
+.telefone-class:hover{
+	color: #fbae17;
+	text-decoration: none;
+}
+
+.email-class{
+	color: white;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.email-class:hover{
+	color: #fbae17;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------
+	MEDIA QUERIES
+----------------------------------------------------*/
+
+@media screen and ( max-width: 740px ){
+
+	.formulario{
+		overflow-x: hidden;
+	}
+	
+
+	/*----------------
+	HEADER
+	-----------------*/
+	.cabecalho{
+		width: 100%;
+		height: 80px;
+	}
+
+	.logo-music-park{
+		width: 80px;
+		height: 57px;
+		margin-top: 10px;
+		margin-left: 20px;
+		background-image: url("../img/logo_music_park_80x57.png");
+		background-repeat: no-repeat;
+	}
+
+	.btn-lg{
+		width: 140px;
+		height: 38px;
+		margin-top: 20px;
+	}
+
+	/*----------------
+	FORM
+	-----------------*/
+	.formulario{
+		margin-top: 0px;
+	}
+	.formulario-central{
+		width: 300px;
+		position: relative;
+	}
+
+	.formulario h1{
+		font-size: 52px;
+	}
+
+	.eventos{
+		display: none;
+	}
+	.campos{
+		width: 300px;
+	}
+	.form-control{
+		width: 300px;
+	}
+
+	/*----------------
+	DOWNLOAD
+	-----------------*/
+	.download-icone{
+		width: 120px;
+		text-align: right;
+		float: right;
+	}
+
+	.texto-download{
+		color: white;
+	}
+
+	.fa-cloud-download{
+		display: none;
+	}
+
+	/*----------------
+	FOOTER
+	-----------------*/
+	.rodape{
+		width: 300px;
+		margin-bottom: 50px;
+	}
+
+	.linha{
+		width: 300px;
+	}
+
+	.texto-rodape{
+		width: 300px;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+
+	.cidade-class{
+		width: 100%;
+		float: left;
+		font-style: italic;
+	}
+
+	.telefone-class{
+		color: white;
+		cursor: pointer;
+		margin-top: 55px;
+	}
+
+	.telefone-class:hover{
+		color: #fbae17;
+		text-decoration: none;
+	}
+
+	.email-class{
+		color: white;
+		cursor: pointer;
+		margin-top: 3px;
+	}
+
+	.email-class:hover{
+		color: #fbae17;
+		text-decoration: none;
+	}
+	/*----------------
+	VIDEOS ASIDE
+	-----------------*/
+
+	.videos{
+		display: none;
+	}
+
+}
